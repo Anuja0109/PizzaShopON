@@ -24,13 +24,13 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["./components/*"],
-      "@modules/*": ["./modules/*"],
+      "@pages/*": ["./pages/*"],
       "@assets/*": ["./assets/*"],
       "@utils/*": ["./utils/*"],
-      "@http/*": ["./http/*"],
+      "@hooks/*": ["./hooks/*"],
       "@store/*": ["./store/*"],
       "@ui/*": ["./ui/*"],
-      "@errorHandling/*": ["./errorHandling/*"]
+      "@global-types/*": ["./types/*"]
     }
   },
   "include": ["src"],
