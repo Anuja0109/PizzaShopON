@@ -12,11 +12,30 @@ export const ModalBackGround = styled.div`
 `
 export const ModalDialog = styled.div`
   position: absolute;
-  background-color: white;
-  margin: 10% auto;
+  background: #012039;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ccc;
+  margin: 10% 25%;
   padding: 20px;
-  width: 50%;
+  width: 30%;
 `
-export const ModalTitle = styled.div``
+export const ModalSeperator = styled.hr`
+  border: 1px solid #ccc;
+  margin-bottom: 0.6rem;
+  width: 100%;
+`
+export const ModalTitle = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0.1rem 0.1rem;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+`
 
 export const ModalBody = styled.div``

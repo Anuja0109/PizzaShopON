@@ -8,13 +8,18 @@ export default createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Open Sans', sans-serif; 
     }
-    #root{
+    #root {
         margin: 0 auto;
         padding: 0;
         outline: 0;
         box-sizing: border-box;
-        width: 100% !important;
         font-family: 'Open Sans', sans-serif; 
+        background: #012039;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #ccc;
+        width: 100% !important;
         max-width: 100%;
         overflow-x: hidden;
         height: 100% !important;

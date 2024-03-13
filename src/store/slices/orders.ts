@@ -42,6 +42,26 @@ const initialState: Array<IPizzaOrder> = [
       size: 'large',
       base: 'thik'
     }
+  },
+  {
+    id: '005',
+    currentStatus: 'ready',
+    orderPlaced: Date.now(),
+    pizzaDetails: {
+      type: 'veg',
+      size: 'large',
+      base: 'thik'
+    }
+  },
+  {
+    id: '006',
+    currentStatus: 'picked',
+    orderPlaced: Date.now(),
+    pizzaDetails: {
+      type: 'veg',
+      size: 'large',
+      base: 'thik'
+    }
   }
 ]
 export const orderSlice = createSlice({
