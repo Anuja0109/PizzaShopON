@@ -1,7 +1,13 @@
 import { ReactNode } from 'react'
 import Portal from '@ui/Portal'
 import Button from '@ui/Button'
-import { ModalBackGround, ModalDialog, ModalBody, ModalTitle } from './style'
+import {
+  ModalBackGround,
+  ModalDialog,
+  ModalBody,
+  ModalTitle,
+  ModalSeperator
+} from './style'
 
 type TAppModalProps = {
   children: ReactNode
@@ -33,6 +39,7 @@ const AppModal: React.FC<TAppModalProps> = ({
               buttonText="Close"
             />
           </ModalTitle>
+          <ModalSeperator />
           <ModalBody>{children}</ModalBody>
         </ModalDialog>
       </ModalBackGround>

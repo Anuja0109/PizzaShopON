@@ -15,4 +15,6 @@ export const SplitScreenContainer = styled.div`
   }
 `
 
-export const SplitScreenPane = styled.div``
+export const SplitScreenPane = styled.div`
+  margin-left: 50px;
+`

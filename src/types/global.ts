@@ -11,3 +11,20 @@ export interface IPizzaOrder {
   orderPlaced: Date | number | null
   pizzaDetails: TPizzaDetails
 }
+
+export type TOption = {
+  value: string | number
+  label: string
+}
+
+export type UpdateParent = ({
+  name,
+  value
+}: {
+  name: string
+  value: string | number
+}) => void
+
+export type SelectComponentsProp = {
+  updateParent: UpdateParent
+}

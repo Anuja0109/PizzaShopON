@@ -1,7 +1,11 @@
 import { FooterContainer } from './style'
 
 const Footer: React.FC = () => {
-  return <FooterContainer>&copy; Anuja Shrivastava 2024</FooterContainer>
+  return (
+    <FooterContainer>
+      <span>&copy; Anuja Shrivastava 2024</span>
+    </FooterContainer>
+  )
 }
 
 export default Footer
